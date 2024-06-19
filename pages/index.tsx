@@ -83,7 +83,7 @@ const Home: NextPage = () => {
         <title>LakshuFlix</title>
         <link rel='icon' href='favicon.ico' />
       </Head>
-      <Header className='fixed top-0 w-full z-20' />
+      <Header/>
 
       <main className='flex w-full flex-1 flex-col items-center justify-center px-20 pt-20 text-center'>
         {!showVideo && (
